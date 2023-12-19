@@ -1,0 +1,46 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 4px;
+}
+.sidebar .logo {
+  width: 55px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  align-items: center;
+}
+
+.dropdown-content {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 8px;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.dropdown-content a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: #000;
+  border-radius: 4px;
+}
+
+.dropdown-icon {
+  margin-left: 10px;
+}
